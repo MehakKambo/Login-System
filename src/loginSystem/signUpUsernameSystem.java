@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 public class signUpUsernameSystem {
 
-	public static ArrayList <String> user = new ArrayList<String>();//to get user names from the text file.
+	public static ArrayList<String> user = new ArrayList<String>();//to get user names from the text file.
 	private static String[] error = new String[8];// for all the error messages .
 	static Scanner input = new Scanner(System.in);// to prompt user name from the user
 	static String newuser;// to input user name.
